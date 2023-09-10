@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <!--Css-->
     <link rel="stylesheet" href="../Css/style.css">
@@ -11,10 +13,26 @@
 </head>
 <body>
     <header>
-        <section class="logos">
-        <a href="../index.html"><img class="logo1" src="../medios/logo.png" alt=""></a>
-        <img class="logo2" src="../medios/Faculogo.png" alt="">
-        </section>
+       
+        <nav class="navbar ">
+            <div class="container-fluid justify-content-around">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../medios/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top ">
+                FacuMascotas
+
+                
+                    <a href="../page/contacto.html">Contacto</a>
+                    <a href="../page/consultas.html">Consultas</a>
+                    <a href="../page/galeria.html">Facu amigos</a>
+                    
+                
+              </a>
+            </div>
+            
+          </nav>
+        
+
+        <!--
         <nav>
             <ul class="listas">
                 <li><a href="./consultas.html">Consultas</a></li>
@@ -22,12 +40,80 @@
                 <li><a href="./galeria.html">Facu amigos</a></li>
             </ul>
         </nav>
+        -->
 
     </header>
 
     <h1>OFERTAS DE LA SEMANA!</h1>
 
     <!--Ofertas de la semana-->
+    
+    <div class="card-group">
+        <div class="card">
+          <img src="../medios/Productos/Ofertas/Dental.png" class="card-img-top" alt="Dental">
+          <div class="card-body">
+            <h5 class="card-title">Juguete Dental</h5>
+            <p class="card-text">Excelente juguete para perros que ayuda a la limpieza y el cuidado de sus dientes.</p>
+          </div>
+          <div class="card-footer">
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" value="true" id="flexCheckDefault">
+                <label class="form-check-label " for="flexCheckDefault">
+                  Añadir al carro
+                </label>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../medios/Productos/Ofertas/Juguete gato.png" class="card-img-top" alt="Gato">
+          <div class="card-body">
+            <h5 class="card-title">Rascador Anti-estres</h5>
+            <p class="card-text">Juguete rascador hecho de excelentisimo carton, ideal para el estres y el aburrimiento de tu gato.</p>
+          </div>
+          <div class="card-footer">
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" value="true" id="flexCheckDefault">
+                <label class="form-check-label " for="flexCheckDefault">
+                  Añadir al carro
+                </label>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../medios/Productos/Ofertas/Monito.png " class="card-img-top" alt="Monito">
+          <div class="card-body">
+            <h5 class="card-title">Monito</h5>
+            <p class="card-text">Juguete "monito" de silicona , material super resistente y atoxico.</p>
+          </div>
+          <div class="card-footer">
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" value="true" id="flexCheckDefault">
+                <label class="form-check-label " for="flexCheckDefault">
+                  Añadir al carro
+                </label>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+            <img src="../medios/Productos/Ofertas/Pelota.png" class="card-img-top" alt="Pelota">
+            <div class="card-body">
+              <h5 class="card-title">Pelota con cascabel</h5>
+              <p class="card-text">Pelota de silicona con cascabel en su interior, un juguete ideal tanto para perros como para gatos, buscalo en sus distintos tamaños.</p>
+            </div>
+            <div class="card-footer">
+                <div class="form-check ">
+                    <input class="form-check-input" type="checkbox" value="true" id="flexCheckDefault">
+                    <label class="form-check-label " for="flexCheckDefault">
+                      Añadir al carro
+                    </label>
+                  </div>
+            </div>
+          </div>
+      </div>
+    
+
+
+    <!--
     <section class="accesorios">
         <img class="dental" src="../medios/Productos/Ofertas/Dental.png" alt="Dental">
  
@@ -56,6 +142,12 @@
         </form> 
 
     </section>
+    -->
+
+
+
+
+
 
     <h2 class="np">Nuestro productos</h2>
 <!--Nuestros Productos-->
@@ -111,8 +203,8 @@
         
     </footer>
 
-    
-
+    <!--JSBS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     
 </body>
 </html>
