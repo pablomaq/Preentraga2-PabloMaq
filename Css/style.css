@@ -48,31 +48,31 @@ header a{
 }
 
 .nosotros{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
+    
+    
     
 }
 
 .quienessomos{
     text-align: center;
-    margin-left: 700px ;    
+        
 }
 
 .local{
     margin-bottom: 50px;
+    height: 50%;
 }
 
 .familia{
-    margin-left: 10px;
-    margin-bottom: 150px;
-    font-size: 30px;
+
+    font-size: 25px;
     text-align: justify;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: crimson;
     text-decoration: underline;
     text-align: center;
@@ -270,14 +270,14 @@ footer{
 /*Stylo contactos*/
 
 .direcciones{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .btn{
     background-color: #06436F;
     border: 2px solid crimson;
+    color: aliceblue;
+
 }
 
 /*Stylo Facu Amigos*/
