@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    border-top: $rojo 4px solid;
+    
+    background-color:$azul;
+
+        img{
+            height: 40px;
+            border: 2px solid black;
+        }
+    }

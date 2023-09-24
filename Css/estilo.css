@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: crimson;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+main .local {
+  height: 50%;
+  width: 800px;
+  border: 2px solid red;
+  margin-left: 0px;
+}
+main p {
+  font-size: 25px;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  /*06436F color de header*/
+  background-color: #06436F;
+  border-bottom: crimson 4px solid;
+  position: sticky;
+  top: 0px;
+}
+header a {
+  color: #f0f8ff;
+}
+header nav ul {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  border-top: crimson 4px solid;
+  background-color: #06436F;
+}
+footer img {
+  height: 40px;
+  border: 2px solid black;
+}
+
+body {
+  /*Stylo Seccion Ofertas*/
+  /*stylo Productos*/
+}
+body .form-check-input {
+  border: 1px solid crimson;
+  background-color: bisque;
+}
+body .form-check-input:checked {
+  background-color: crimson;
+  border-color: crimson;
+}
+body .card {
+  border: 4px solid crimson;
+}
+body .card-body {
+  background-color: bisque;
+}
+body .card-group {
+  width: 100%;
+}
+body .busqueda {
+  display: flex;
+  justify-content: center;
+}
+body .cartas {
+  width: 400px;
+  background-color: bisque;
+  margin-top: 100px;
+}
+body .kitten {
+  width: 390px;
+  background-color: bisque;
+}
+body .comprar {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15px;
+  height: 50px;
+}
+body .btn1 {
+  background-color: red;
+  color: aliceblue;
+  margin-right: 10px;
+}
+body .btn2 {
+  background-color: green;
+  margin-right: 5%;
+}
+
+/*Stylo contactos*/
+.direcciones {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #06436F;
+  border: 2px solid crimson;
+  color: aliceblue;
+}
+
+.card {
+  position: inherit;
+}
+
+.footercontactos {
+  margin-top: 250px;
+}
+
+/*Stylo consultas*/
+header {
+  height: 50px;
+}
+
+body {
+  min-height: 100vh;
+}
+body .formule {
+  border: 4px solid crimson;
+  background-color: bisque;
+  margin-bottom: 50px;
+  margin-left: 250px;
+}
+
+.footerconsultas {
+  margin-top: 500px;
+}
+
+/*Stylo Facu Amigos*/
+.amigos {
+  width: 180px;
+  height: 180px;
+  border: 4px solid crimson;
+  margin: 15px;
+}
+
+.nombre {
+  height: 15px;
+  width: 50px;
+  margin-top: 60%;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+/*# sourceMappingURL=estilo.css.map */

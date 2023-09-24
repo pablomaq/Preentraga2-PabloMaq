@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    @include estiloh1 (50px,50px,crimson,underline,center)
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+main{
+  
+    .local{
+        
+        height: 50%;
+        width: 800px;
+        border: 2px solid red;
+        margin-left: 0px;
+    }
+
+    p{
+        font-size: 25px;
+        text-align: left;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+     }
+}

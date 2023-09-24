@@ -1,0 +1,13 @@
+$azul:#06436F;
+$rojo:crimson;
+$blanco:#f0f8ff;
+
+@mixin estiloh1 ($var1, $var2, $var3, $var4, $var5){
+    margin-top: $var1;
+    margin-bottom: $var2;
+    color: $var3;
+    text-decoration: $var4;
+    text-align: $var5;
+    
+}
+

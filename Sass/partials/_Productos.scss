@@ -1,0 +1,73 @@
+body{
+
+    /*Stylo Seccion Ofertas*/
+    .form-check-input{
+        border: 1px solid crimson;
+        background-color: bisque;
+    }
+
+    .form-check-input:checked {
+        background-color: crimson;
+        border-color: crimson;
+    }
+
+    
+.card{
+    border: 4px solid crimson;
+    
+}
+
+.card-body{
+
+    
+    background-color: bisque;
+
+}
+
+.card-group{
+    width: 100%;
+ }
+
+ /*stylo Productos*/
+
+ .busqueda{
+    display: flex;
+    justify-content: center;
+}
+.cartas{
+    width: 400px;
+    background-color: bisque;
+    margin-top: 100px;
+    
+
+}
+.kitten{
+    width: 390px;
+    background-color: bisque;
+    
+   }
+
+
+.comprar{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+.btn1{
+    background-color: red;
+    color: aliceblue;
+    margin-right: 10px;
+    
+    
+
+}
+.btn2{
+    background-color: green;
+        margin-right: 5%;
+    
+
+}
+
+}
