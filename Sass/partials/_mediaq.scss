@@ -13,7 +13,14 @@
 
 
 
+//index
 
+    .nosotros{
+        width: 100%;
+        p{
+            text-align: center;
+        }
+    }
 
 
 //productos
@@ -41,7 +48,7 @@
     }
 
     .grid-consultas{
-        column-gap: 20px;
+        column-gap: 40px;
     }
 
     .mail{

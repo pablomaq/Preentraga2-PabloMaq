@@ -69,10 +69,10 @@ footer img {
   border: 2px solid black;
 }
 
-
+body {
   /*Stylo Seccion Ofertas*/
   /*stylo Productos*/
-
+}
 body .form-check-input {
   border: 1px solid crimson;
   background-color: bisque;
@@ -164,6 +164,14 @@ ul .facuconsulta {
   text-decoration: underline;
 }
 
+.mail {
+  font-size: medium;
+}
+
+.tel {
+  font-size: medium;
+}
+
 /*Stylo Facu Amigos*/
 .amigos {
   width: 180px;
@@ -198,6 +206,12 @@ ul .facuconsulta {
     display: grid;
     grid-template-columns: auto auto;
   }
+  .nosotros {
+    width: 100%;
+  }
+  .nosotros p {
+    text-align: center;
+  }
   .card-group {
     display: flex;
     flex-direction: column;
@@ -212,7 +226,10 @@ ul .facuconsulta {
     width: 100%;
   }
   .grid-consultas {
-    column-gap: 20px;
+    column-gap: 40px;
+  }
+  .mail {
+    font-size: small;
   }
   .direcciones {
     display: flex;
