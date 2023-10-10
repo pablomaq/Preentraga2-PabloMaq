@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consultas</title>
+
+    <!--Animated-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
    
     <!--Sass-->
     <link rel="stylesheet" href="../Css/estilo.css">
@@ -12,39 +15,41 @@
 
 <body>
     <header>
+        <nav >
+            <ul class="listas">
+                <li class="facuconsulta"><a href="../index.html"><img src="../medios/logo.png" alt="logo">Facu Mascotas</a></li>   
+                <li><a href="./productos.html">Productos</a></li> 
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./galeria.html">Facu amigos</a></li>
+            </ul>
+    
+        </nav>
+    
 
-        <nav class="navbar ">
-            <div class="container-fluid justify-content-around">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../medios/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top ">
-                FacuMascotas
-
-                
-                    <a href="../page/productos.html">Productos</a>
-                    <a href="../page/galeria.html">Facu amigos</a>
-                    <a href="../page/contacto.html">Contactos</a>
-            
-                
-              </a>
-            </div>
-            
-          </nav>
-
-   
 
 
     </header>
-    <h1>Dejanos tus consultas</h1>
-    <section class="fomule">
-        <form action="form.php" method="post">
-            <input type="email" placeholder="email">
+    <h1 class="animate__animated animate__bounceInDown">Dejanos tus consultas</h1>
+   
+    <section class="imagenpresentacion">
+        <img src="../medios/gatito perro.avif" alt="gatitoperro">
     </section>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-    <section>
-        <input type="button" value="Enviar">
-    </section>
-    </form>
-    
+
+<section class="grid-consultas">
+    <div class="datos"><strong>DATOS DE CONTACTO</strong></div>
+    <div class="formulariotitulo"><strong>FORMULARIO DE CONTACTO</strong></div>
+    <div><strong>Email</strong><br>consultasfacu@gmail.com</div>
+    <div class="nomb-direc"><input type="text" placeholder="Nombre"> <br><br> <input type="email" name="inpmail" id="" placeholder="Direccion de correo"></div>
+    <div class="tel"><strong>TELEFONO</strong> <br>4241-0306</div>
+    <div><textarea name="Text" id="text-consul" cols="30" rows="10"></textarea> <input type="button" value="Enviar"></div>
+
+
+
+</section>
+
+
+
+
 
     <footer class="footerconsultas">
         <a href="http://instagram.com"><img class="iconoig" src="../medios/Logo ig.png" alt=""></a>

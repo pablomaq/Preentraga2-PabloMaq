@@ -1,21 +1,26 @@
 /*Stylo consultas*/
-header{
-    height: 50px;
+
+ul{
+    .facuconsulta{
+        padding-bottom: 20px;
+    }
 }
 
-body{
-    min-height: 100vh;
-
-.formule{
-    border: 4px solid crimson;
-       background-color: bisque;
-       margin-bottom: 50px;
-       margin-left: 250px;
-    
-}
+.imagenpresentacion{
+    width: 100%;
 }
 
-.footerconsultas{
-    margin-top: 500px;
-
+.grid-consultas{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+        .datos{
+            text-decoration: underline;
+        }
+        .formulariotitulo{
+            text-decoration: underline;
+        }
+    margin-left: 15px;
 }
+
+

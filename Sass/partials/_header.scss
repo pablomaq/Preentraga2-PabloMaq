@@ -1,21 +1,40 @@
-header{
-      /*06436F color de header*/
+/*06436F color de header*/
+header {
+
+  
+  background-color:$azul
+  ;
+  border-bottom: crimson 4px solid;
+  position: -webkit-sticky;
+  position:sticky ;
+  top: 0px;
+  z-index: 1;
+
+    a{
+      color: aliceblue;
+    }
     
-      background-color:$azul
-      ;
-      border-bottom: crimson 4px solid;
-      position:sticky ;
-      top: 0px;
+   
+  .listas{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+  }
 
-      a{color: #f0f8ff;
-        
+  .listas :hover{
+    color: $rojo;
+  }
 
-      }
-      nav{
-      
-        ul{
-            list-style: none;
-        }
-      
-}
-}
+
+  img{
+    width: 30px;
+    height: 24px;
+  }
+
+ 
+}  
+
+
+
+

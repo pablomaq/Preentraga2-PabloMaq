@@ -3,7 +3,8 @@
     margin: 0;
 }
 h1{
-    @include estiloh1 (50px,50px,crimson,underline,center)
+    @include estiloh1 (50px,50px,crimson,underline,center);
+    
     
 }
 
